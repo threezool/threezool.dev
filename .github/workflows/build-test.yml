@@ -33,4 +33,4 @@ jobs:
       # Run dotnet test
       - name: dotnet test
         run: |
-          dotnet test --verbosity normal
+          dotnet test
