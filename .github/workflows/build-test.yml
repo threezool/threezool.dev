@@ -29,3 +29,8 @@ jobs:
         run: |
           dotnet build --configuration Release
           dotnet publish -c Release -o myapp 
+
+      # Run dotnet test
+      - name: dotnet test
+        run: |
+          dotnet test --verbosity normal
