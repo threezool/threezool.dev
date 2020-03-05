@@ -35,7 +35,7 @@ jobs:
       # Run dotnet test
       - name: dotnet test
         run: |
-          dotnet test --verbosity normal
+          dotnet test
           
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using publish profile credentials'
