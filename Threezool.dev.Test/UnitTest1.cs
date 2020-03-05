@@ -14,11 +14,5 @@ namespace Threezool.dev.Test
         {
             Assert.Pass();
         }
-        
-        [Test]
-        public void Test2()
-        {
-            Assert.Fail();
-        }
     }
 }
