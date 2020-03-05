@@ -1,0 +1,31 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ development ]
+  pull_request:
+    branches: [ development ]
+    
+env:
+  DOTNET_VERSION: '3.1.101'           # set this to the dot net version to use:  
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repo
+      - uses: actions/checkout@master
+      
+      # Setup .NET Core SDK
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }} 
+      
+      # Run dotnet build and publish
+      - name: dotnet build and publish
+        run: |
+          dotnet build --configuration Release
+          dotnet publish -c Release -o myapp 
