@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threezool.dev", "Threezool.dev\Threezool.dev.csproj", "{3A1FE316-E57D-4D7C-ADE2-926052288E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threezool.dev.Test", "Threezool.dev.Test\Threezool.dev.Test.csproj", "{CF144FD6-B9F3-4DF5-96D5-45F49982181C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threezool.dev.Test", "Threezool.dev.Test\Threezool.dev.Test.csproj", "{EE5200B1-EB54-4097-91CC-0EBE75475185}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{3A1FE316-E57D-4D7C-ADE2-926052288E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1FE316-E57D-4D7C-ADE2-926052288E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1FE316-E57D-4D7C-ADE2-926052288E30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF144FD6-B9F3-4DF5-96D5-45F49982181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF144FD6-B9F3-4DF5-96D5-45F49982181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF144FD6-B9F3-4DF5-96D5-45F49982181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF144FD6-B9F3-4DF5-96D5-45F49982181C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
