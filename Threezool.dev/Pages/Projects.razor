@@ -1,3 +1,23 @@
 ﻿@page "/projects"
+@using Threezool.dev.Models
+@using Threezool.dev.Services
+@inject IProjectService projectService
 
 <h1>Projekt</h1>
+
+<ul>
+    @foreach (var project in projects)
+    {
+        <li>@project.Name</li>
+    }
+</ul>
+
+@code
+{
+    private List<Project> projects;
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = projectService.GetAllProjects();
+    }
+}
