@@ -40,7 +40,7 @@ namespace Threezool.dev
             });
             
             // Repositories
-            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             
             // Services
             services.AddScoped<ISkillService, SkillService>();

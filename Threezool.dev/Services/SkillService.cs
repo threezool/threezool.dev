@@ -6,9 +6,9 @@ namespace Threezool.dev.Services
 {
     public class SkillService : ISkillService
     {
-        private readonly GenericRepository<Skill> skillsRepository;
+        private readonly Repository<Skill> skillsRepository;
 
-        public SkillService(GenericRepository<Skill> skillsRepository)
+        public SkillService(Repository<Skill> skillsRepository)
         {
             this.skillsRepository = skillsRepository;
         }

@@ -5,7 +5,7 @@ using Threezool.dev.Models;
 
 namespace Threezool.dev.Data.Repository
 {
-    public interface IGenericRepository<T> where T : BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
         IQueryable<T> GetAll();
         IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression);

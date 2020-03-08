@@ -7,11 +7,11 @@ using Threezool.dev.Models;
 
 namespace Threezool.dev.Data.Repository
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+    public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         protected readonly InMemoryContext Db;  
         
-        public GenericRepository(InMemoryContext db)  
+        public Repository(InMemoryContext db)  
         {  
             Db = db;
             db.Database.EnsureCreated();
