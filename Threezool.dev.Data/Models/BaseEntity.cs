@@ -1,4 +1,4 @@
-namespace Threezool.dev.Models
+namespace Threezool.dev.Data.Models
 {
     public class BaseEntity
     {

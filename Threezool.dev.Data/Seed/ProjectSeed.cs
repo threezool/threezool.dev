@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Threezool.dev.Models;
+using Threezool.dev.Data.Models;
 
 namespace Threezool.dev.Data.Seed
 {

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threezool.dev", "Threezool.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threezool.dev.Test", "Threezool.dev.Test\Threezool.dev.Test.csproj", "{EE5200B1-EB54-4097-91CC-0EBE75475185}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threezool.dev.Data", "Threezool.dev.Data\Threezool.dev.Data.csproj", "{FC187549-9074-4E6D-9024-87AB9C32FEF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5200B1-EB54-4097-91CC-0EBE75475185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC187549-9074-4E6D-9024-87AB9C32FEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC187549-9074-4E6D-9024-87AB9C32FEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC187549-9074-4E6D-9024-87AB9C32FEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC187549-9074-4E6D-9024-87AB9C32FEF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

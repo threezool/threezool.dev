@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Threezool.dev.Data.Models;
 using Threezool.dev.Data.Seed;
-using Threezool.dev.Models;
 
 namespace Threezool.dev.Data.DbContext
 {
@@ -11,8 +11,7 @@ namespace Threezool.dev.Data.DbContext
         public DbSet<Project> Projects { get; set; }
         public DbSet<Skill> Skills { get; set; }
 
-        public InMemoryContext(DbContextOptions<InMemoryContext> options)
-            : base(options)
+        public InMemoryContext(DbContextOptions<InMemoryContext> options) : base(options)
         {
         }
 

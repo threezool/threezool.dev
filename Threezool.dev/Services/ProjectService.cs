@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
+using Threezool.dev.Data.Models;
 using Threezool.dev.Data.Repository;
-using Threezool.dev.Models;
 
 namespace Threezool.dev.Services
 {

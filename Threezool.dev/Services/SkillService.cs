@@ -1,14 +1,14 @@
 using System.Collections.Generic;
+using Threezool.dev.Data.Models;
 using Threezool.dev.Data.Repository;
-using Threezool.dev.Models;
 
 namespace Threezool.dev.Services
 {
     public class SkillService : ISkillService
     {
-        private readonly Repository<Skill> skillsRepository;
+        private readonly IRepository<Skill> skillsRepository;
 
-        public SkillService(Repository<Skill> skillsRepository)
+        public SkillService(IRepository<Skill> skillsRepository)
         {
             this.skillsRepository = skillsRepository;
         }

@@ -1,7 +1,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace Threezool.dev.Models
+namespace Threezool.dev.Data.Models
 {
     public class Project : BaseEntity
     {

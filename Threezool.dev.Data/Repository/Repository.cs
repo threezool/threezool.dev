@@ -3,7 +3,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Threezool.dev.Data.DbContext;
-using Threezool.dev.Models;
+using Threezool.dev.Data.Models;
 
 namespace Threezool.dev.Data.Repository
 {
@@ -20,6 +20,11 @@ namespace Threezool.dev.Data.Repository
         public IQueryable<T> GetAll()
         {
             return this.Db.Set<T>().AsNoTracking();
+        }
+
+        public T GetById(int id)
+        {
+            return this.Db.Set<T>().FirstOrDefault(e => e.Id == id);
         }
 
         public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
