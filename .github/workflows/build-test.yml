@@ -28,7 +28,6 @@ jobs:
       - name: dotnet build and publish
         run: |
           dotnet build --configuration Release
-          dotnet publish -c Release -o myapp
 
       # Run dotnet test
       - name: dotnet test
